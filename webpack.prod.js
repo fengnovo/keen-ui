@@ -13,7 +13,7 @@ module.exports = {
         header: './packages/header',
     },
     output: {
-        filename: 'js/[name].js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'lib'),
         library: {
             name: 'KUI',
@@ -22,14 +22,12 @@ module.exports = {
         clean: true
     },
     module: {
-        rules: [
-            {
-                test: /\.vue$/,
-                use: {
-                    loader: 'vue-loader'
-                }
+        rules: [{
+            test: /\.vue$/,
+            use: {
+                loader: 'vue-loader'
             }
-        ]
+        }]
     },
     externals: ['vue'],
     plugins: [
