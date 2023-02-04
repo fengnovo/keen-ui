@@ -1,10 +1,16 @@
-$color: red;
+@import './base.scss';
+@import './layout.scss';
+@import './button.scss';
+@import './aside.scss';
+@import './container.scss';
+@import './main.scss';
+@import './header.scss';
 
 .test {
     display: flex;
-    color: $color;
+    color: #fff;
 }
 
 .red {
-    color: $color;
+    color: $primaryColor;
 }

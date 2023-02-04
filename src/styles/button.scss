@@ -1,0 +1,101 @@
+@import './base.scss';
+
+.k-button {
+    border-radius: $borderRadius;
+    padding: $defaultPaddingTop $defaultPaddingLeft;
+    border: 1px solid;
+}
+
+.k-button-large {
+    padding: $largePaddingTop $largePaddingLeft;
+}
+
+.k-button-small {
+    padding: $smallPaddingTop $smallPaddingLeft;
+}
+
+.k-button--default {
+    background-color: $defaultColor;
+    color: $defaultTextColor;
+    border-color: $defaultTextColor;
+}
+
+.k-button--default:hover {
+    background-color: $primaryHoverColor;
+    color: $primaryColor;
+    border-color: $primaryHoverColor;
+}
+
+.k-button--default:active {
+    border-color: $primaryActiveColor;
+}
+
+.k-button--primary {
+    background-color: $primaryColor;
+    color: $primaryTextColor;
+    border-color: $primaryColor;
+}
+
+.k-button--primary:hover {
+    background-color: $primaryHoverColor;
+}
+
+.k-button--primary:active {
+    background-color: $primaryActiveColor;
+}
+
+.k-button--warning {
+    background-color: $warningColor;
+    color: $warningTextColor;
+    border-color: $warningColor;
+}
+
+.k-button--warning:hover {
+    background-color: $warningHoverColor;
+}
+
+.k-button--warning:active {
+    background-color: $warningActiveColor;
+}
+
+.k-button--danger {
+    background-color: $dangerColor;
+    color: $dangerTextColor;
+    border-color: $dangerColor;
+}
+
+.k-button--danger:hover {
+    background-color: $dangerHoverColor;
+}
+
+.k-button--danger:active {
+    background-color: $dangerActiveColor;
+}
+
+.k-button--success {
+    background-color: $successColor;
+    color: $successTextColor;
+    border-color: $successColor;
+}
+
+.k-button--success:hover {
+    background-color: $successHoverColor;
+}
+
+.k-button--success:active {
+    background-color: $successActiveColor;
+}
+
+.k-button--info {
+    background-color: $infoColor;
+    color: $infoTextColor;
+    border-color: $infoColor;
+}
+
+.k-button--info:hover {
+    background-color: $infoHoverColor;
+}
+
+.k-button--info:active {
+    background-color: $infoActiveColor;
+}
