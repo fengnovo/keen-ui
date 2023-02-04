@@ -9,10 +9,6 @@
         "packages",
         "example"
     ],
-    "directories": {
-        "example": "example",
-        "lib": "lib"
-    },
     "scripts": {
         "build:style": "gulp",
         "dev": "webpack serve --config webpack.dev.js --color --progress --hot",
